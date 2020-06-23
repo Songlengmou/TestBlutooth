@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/scan"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="connect" />
+    <item
+        android:id="@+id/quit"
+        android:icon="@android:drawable/ic_delete"
+        android:title="quit" />
+    <item
+        android:id="@+id/clear"
+        android:icon="@android:drawable/ic_input_delete"
+        android:title="clear" />
+    <item
+        android:id="@+id/save"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="save" />
+
+</menu>
