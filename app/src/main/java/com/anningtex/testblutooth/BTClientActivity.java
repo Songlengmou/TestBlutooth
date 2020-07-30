@@ -34,12 +34,10 @@ import java.util.UUID;
 
 /**
  * @author Administrator
- * desc:主界面   HC-05串口助手
+ * desc:主界面   HC-05串口助手    （最原始的）
  */
 public class BTClientActivity extends AppCompatActivity {
-
     private final static int REQUEST_CONNECT_DEVICE = 1;    //宏定义查询设备句柄
-
     private final static String MY_UUID = "00001101-0000-1000-8000-00805F9B34FB";   //SPP服务UUID号
 
     private InputStream is;    //输入流，用来接收蓝牙数据
